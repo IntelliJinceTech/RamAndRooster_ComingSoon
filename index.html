@@ -14,13 +14,13 @@
 
   </head>
   <body
-    class="font-quint text-center bg-[url('/images/brush-bg-opacity-30-cbaf.jpeg')] text-white mx-5 h-screen flex items-center justify-center flex-col">
+    class="font-quint text-center bg-[url('/images/brush-bg-opacity-30-cbaf.jpeg')] text-white mx-5 h-screen flex items-center justify-center flex-col my-auto">
     <main class=" flex flex-col justify-content">
       <img class="aspect-square max-w-[35%] sm:max-w-[25%] lg:max-w-[17%] my-0 mx-auto "
         src="/images/RamAndRoosterLogo.png" alt="Ram & Rooster Logo">
       <h1 class="text-7xl text-yellow-500 mx-2 font-semibold uppercase text-center">Ram &#38; Rooster</h1>
     </main>
-    <section class="text-xl min-h-[35%]">
+    <section class="text-xl max-h-[35%]">
       <h2 class="text-3xl sm:text-4xl text-yellow-500 pt-6 sm:pt-4 md:pt-10 mb-8 uppercase ">Coming Soon!</h2>
       <p class="mb-5">
         <a href="https://maps.app.goo.gl/XA9SAKSEwWC2eUP76" class="underline ">
@@ -43,11 +43,12 @@
 
       <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="relative isolate overflow-hidden px-6 shadow-2xl sm:rounded-3xl sm:px-24 md:py-5 xl:py-8">
-          <h2 class="mx-auto max-w-2xl text-center text-2xl tracking-tight text-white sm:text-3xl font-serif pt-5 ">
+          <h2
+            class="mx-auto max-w-2xl text-center text-2xl tracking-tight text-white sm:text-3xl font-serif pt-5 lg:pt-0 ">
             Sign Up for
             the Latest</h2>
 
-          <form class="mx-auto mt-4 flex max-w-md gap-x-4" action="send_email.php" method="post">
+          <form class="mx-auto mt-4 flex max-w-md gap-x-4 " action="send_email.php" method="post">
             <label for="email-address" class="sr-only">Email address</label>
             <input id="email-address" name="email" type="email" autocomplete="email" required
               class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6 font-serif"

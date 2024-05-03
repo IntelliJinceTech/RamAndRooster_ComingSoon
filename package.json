@@ -1,7 +1,7 @@
 {
   "name": "coming-soon-page-rr",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "buildtailwind": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch",
@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.7",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
